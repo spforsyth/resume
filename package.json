@@ -16,6 +16,9 @@
   ],
   "author": "Steve Forsyth",
   "license": "MIT",
+  "engines": {
+    "node": ">=24.0.0"
+  },
   "dependencies": {
     "@jsonresume/schema": "^1.1.0",
     "js-yaml": "^4.1.0",
