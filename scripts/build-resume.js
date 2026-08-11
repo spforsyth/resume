@@ -169,9 +169,9 @@ try {
     args: ['--no-sandbox', '--disable-setuid-sandbox']
   });
   const page = await browser.newPage();
-  
+
   await page.setContent(htmlContent, { waitUntil: 'networkidle0' });
-  
+
   const pdfOutputPath = path.join(distDir, 'resume.pdf');
   await page.pdf({
     path: pdfOutputPath,
