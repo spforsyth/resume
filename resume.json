@@ -1,0 +1,101 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Steve Forsyth",
+    "label": "Software Engineer & Systems Architect",
+    "image": "",
+    "email": "spforsyth@gmail.com",
+    "phone": "",
+    "url": "https://github.com/spforsyth",
+    "summary": "Innovative software engineer with expertise in full-stack web applications, cloud infrastructure, AI agent integrations, and scalable software architecture.",
+    "location": {
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "spforsyth",
+        "url": "https://github.com/spforsyth"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Senior Software Engineer",
+      "position": "Software Engineer / Architect",
+      "url": "https://github.com/spforsyth",
+      "startDate": "2021-01-01",
+      "endDate": "",
+      "summary": "Leading design and implementation of modern cloud applications, developer tooling, and automated deployment pipelines.",
+      "highlights": [
+        "Architected automated CI/CD resume publishing pipeline using GitHub Actions and modern web standard tooling.",
+        "Built responsive web applications and full-stack cloud services with automated testing and continuous integration."
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "University",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2016-09-01",
+      "endDate": "2020-05-31",
+      "score": "",
+      "courses": [
+        "Data Structures & Algorithms",
+        "Distributed Systems",
+        "Software Engineering Principles"
+      ]
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "Master",
+      "keywords": ["JavaScript", "TypeScript", "Python", "HTML5", "CSS3", "SQL"]
+    },
+    {
+      "name": "Frameworks & Developer Tools",
+      "level": "Advanced",
+      "keywords": ["Node.js", "React", "GitHub Actions", "Docker", "Git", "Puppeteer"]
+    },
+    {
+      "name": "Cloud & Infrastructure",
+      "level": "Advanced",
+      "keywords": ["GitHub Pages", "CI/CD", "REST APIs", "Automated Testing"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Open Source",
+      "keywords": ["Developer Tooling", "Automation", "Web Standards"]
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "JSON Resume Builder & Publisher",
+      "roles": ["Creator", "Maintainer"],
+      "startDate": "2026-08-01",
+      "endDate": "",
+      "description": "Automated resume generator supporting 6 export formats built with Node.js and deployed via GitHub Actions to GitHub Pages.",
+      "highlights": [
+        "Export formats: HTML, PDF, TXT, JSON, Markdown, YAML",
+        "Integrated interactive format switcher toolbar"
+      ],
+      "url": "https://github.com/spforsyth/resume"
+    }
+  ]
+}

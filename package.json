@@ -1,0 +1,26 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Automated JSON Resume builder with 6 export formats published to GitHub Pages",
+  "main": "scripts/build-resume.js",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-resume.js",
+    "dev": "npx serve dist"
+  },
+  "keywords": [
+    "resume",
+    "json-resume",
+    "github-actions",
+    "github-pages"
+  ],
+  "author": "Steve Forsyth",
+  "license": "MIT",
+  "dependencies": {
+    "@jsonresume/schema": "^1.1.0",
+    "js-yaml": "^4.1.0",
+    "jsonresume-theme-even": "^0.3.0",
+    "puppeteer": "^22.0.0",
+    "resumed": "^3.0.1"
+  }
+}
