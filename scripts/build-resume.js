@@ -4,7 +4,6 @@ import { fileURLToPath } from 'url';
 import yaml from 'js-yaml';
 import puppeteer from 'puppeteer';
 import Handlebars from 'handlebars';
-import * as themeEven from 'jsonresume-theme-even';
 import { render as renderResumed } from 'resumed';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -29,14 +28,28 @@ console.log('📄 Reading resume.json...');
 const resumeRaw = fs.readFileSync(resumePath, 'utf8');
 const resumeData = JSON.parse(resumeRaw);
 
-// Format 1: Render HTML using jsonresume-theme-even
-console.log('1️⃣ Rendering HTML with jsonresume-theme-even...');
+// Dynamically determine theme from resume.json meta.theme
+const metaTheme = resumeData?.meta?.theme || 'even';
+const themePkgName = metaTheme.startsWith('jsonresume-theme-')
+  ? metaTheme
+  : `jsonresume-theme-${metaTheme}`;
+
+console.log(`1️⃣ Rendering HTML with theme specified in resume.json: "${metaTheme}" (${themePkgName})...`);
+
+let themeModule;
+try {
+  themeModule = await import(themePkgName);
+} catch (err) {
+  console.error(`⚠️ Could not dynamically import ${themePkgName}. Falling back to jsonresume-theme-even:`, err.message);
+  themeModule = await import('jsonresume-theme-even');
+}
+
 let htmlContent = '';
 try {
-  htmlContent = await renderResumed(resumeData, themeEven);
+  htmlContent = await renderResumed(resumeData, themeModule);
 } catch (err) {
-  console.log('Using themeEven.render fallback:', err.message);
-  htmlContent = themeEven.render(resumeData);
+  console.log('Using direct theme.render fallback:', err.message);
+  htmlContent = themeModule.render(resumeData);
 }
 
 // Inject Top Format Navigation Bar into HTML
