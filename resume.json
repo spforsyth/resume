@@ -123,101 +123,17 @@
       "location": "Remote"
     },
     {
-      "name": "County of Riverside",
-      "position": "Applications Developer III",
-      "url": "https://rivco.org/",
-      "startDate": "2002-09",
-      "endDate": "2008-04",
-      "location": "Riverside, CA",
-      "summary": "Architected and developed Java-based applications for the Human Resources department.",
-      "description": "",
-      "highlights": [
-        "Designed and developed an employee evaluation web application for over 20,000 employees using Spring MVC, Acegi and Hibernate.",
-        "Built a C# CLI to process EDI medical billing files for the County Hospital’s Health Trio package.",
-        "Designed and developed an Employee Relations application for tracking investigations and complaints using Spring MVC, Acegi w/AOP and Hibernate.",
-        "Custom reporting for the County’s Workers Comp, Professional Liability and General Liability insurance application using Crystal Reports.",
-        "**Technologies used:** Java, Spring MVC, Acegi w/AOP (now Spring Security), Hibernate, Tomcat, MS Sql Server, Sql Server Reproting Services, C#, Crystal Reports"
-      ]
-    },
-    {
-      "name": "WFI",
-      "position": "Senior Software Engineer",
-      "startDate": "2002-03",
-      "endDate": "2002-09",
-      "location": "San Diego, CA",
-      "summary": "Design and development for an in-house project management application.",
-      "description": "",
-      "highlights": [
-        "Developed in Java/JSP/Servlets running on Tomcat and connecting to Oracle 8i via JDBC.",
-        "Utilized Oracle PL/SQL stored procedures extensively for business logic.",
-        "**Technologies used:** Java, JSPs, Servlets, Tomcat, Oracle DB, Oracle PL/SQL"
-      ]
-    },
-    {
-      "name": "Tallan",
-      "position": "Software Consultant",
-      "startDate": "2000-05",
-      "endDate": "2001-11",
-      "location": "Irvine, CA",
-      "summary": "Consulting for large-scale multi-national e-commerce platforms.",
-      "description": "",
-      "highlights": [
-        "Built and maintained e-commerce websites using J2EE technologies, focusing on global shopping cart front-ends for regions like Asia and Europe.",
-        "**Technologies used:**, Java, JSPs, HTML, Javascript, CSS"
-      ]
-    },
-    {
-      "name": "Envision Technology Solutions",
-      "position": "Engineering Manager",
-      "startDate": "1998-02",
-      "endDate": "2000-05",
-      "location": "Salt Lake City, UT",
-      "summary": "Engineering Manager of the Data Conversion Department.",
-      "description": "",
-      "highlights": [
-        "Managed department overseeing conversions of client data from legacy systems to RiskEnvision claims management software.",
-        "Supported conversion into MS SQL Server, Oracle, and Sybase back-ends using PowerBuilder and Visual FoxPro.",
-        "**Technologies used:** PowerBuilder, Visual FoxPro, Oracle DB, MS Sql Server, Sybase DB, Sybase Sql Anywhere."
-      ]
-    },
-    {
-      "name": "Franklin Capital",
-      "position": "Contractor",
-      "startDate": "1997-11",
-      "endDate": "1998-02",
-      "location": "Salt Lake City, UT",
-      "summary": "Reporting for C-Suite executives.",
-      "description": "",
-      "highlights": [
-        "Developed various loan statistics reports using Crystal Reports.",
-        "**Technologies used:** Crystal Reports, Oracle DB"
-      ]
-    },
-    {
-      "name": "Teltrust",
-      "position": "Software Engineer",
-      "startDate": "1996-11",
-      "endDate": "1997-11",
-      "location": "Salt Lake City, UT",
-      "summary": "Reporting application development.",
-      "description": "",
-      "highlights": [
-        "Converted telecom data using FoxPro and Sql Server.",
-        "Wrote summary reports of the telecom data for billing purposes.",
-        "**Technologies used:** Visual FoxPro 3, MS Sql Server"
-      ]
-    },
-    {
-      "name": "Property Research Group",
-      "position": "Software Engineer",
+      "name": "Various Technology Companies & Clients",
+      "position": "Software Engineer / Engineering Manager (Early Career)",
       "startDate": "1996-05",
-      "endDate": "1996-11",
-      "location": "Salt Lake City, UT",
-      "summary": "Data conversion of County property data.",
-      "description": "",
+      "endDate": "2008-04",
+      "summary": "Formative 12-year career span encompassing engineering management, enterprise database conversions, and full-stack software development across telecom, insurance, healthcare, and e-commerce domains.",
       "highlights": [
-        "Converted CSV and Fixed Format files from 9-track tapes and CDs into FoxPro databases.",
-        "**Technologies used:** FoxPro 2.6, Visual FoxPro 3"
+        "**Engineering Management & Data Migration:** Managed data conversion department at Envision Technology Solutions, orchestrating complex ETL migrations to SQL Server, Oracle, and Sybase back-ends.",
+        "**Full-Stack & E-Commerce Development:** Built international e-commerce platforms (Tallan) using J2EE, JSP, Servlets, and Oracle PL/SQL stored procedures for high-volume transactions.",
+        "**Government & Healthcare Applications:** Developed employee evaluation and complaint investigation systems for the County of Riverside (20,000+ employees) utilizing Spring MVC, Acegi (Spring Security), and Hibernate.",
+        "**Companies included:** County of Riverside, WFI, Tallan, Envision Technology Solutions, Franklin Capital, Teltrust, Property Research Group",
+        "**Technologies used:** Java/J2EE, Spring MVC, Tomcat, C#, Oracle PL/SQL, MS SQL Server, Sybase, PowerBuilder, FoxPro, Crystal Reports"
       ]
     }
   ],
@@ -230,9 +146,11 @@
       "endDate": "",
       "summary": "Mentor middle to high school students",
       "highlights": [
-        "Teach students how to design, build and program a 120lb robot in 8 weeks to compete in a competition.",
-        "Instruct students on how to safely cut and work with wood and metal power tools.",
-        "Teach students how to program their robot to move, manipulate game pieces and use cameras for vision processing"
+        "Teach students how to design, build and program a 120lb robot in 10 weeks to compete in a competition.",
+        "Instruct students on how to safely work with power/hand tools for wood and metal.",
+        "Teach students how to program in Java using WPILib to move and  manipulate game pieces",
+        "Programming in Java using vision processing libraries to capture position and orientation on the field",
+        "Teaching students how to use gyro/accelerometer to control swerve drive and automate movement using splines"
       ]
     },
     {
@@ -252,9 +170,54 @@
       "startDate": "1991-09-01",
       "endDate": "1993-05-30",
       "score": ""
+    },
+    {
+      "institution": "University of Texas San Antonio",
+      "area": "Computer Science",
+      "studyType": "",
+      "startDate": "1994-09-01",
+      "endDate": "1995-05-30",
+      "score": ""
     }
   ],
   "skills": [
+    {
+      "name": "Java Libraries & Frameworks",
+      "keywords": [
+        "Java",
+        "Spring Boot",
+        "Spring Security",
+        "Spring Data",
+        "Spring JPA",
+        "Hibernate",
+        "Apache Camel",
+        "Apache ActiveMQ",
+        "Apache Karaf",
+        "Apache CXF",
+        "Swagger/OpenAPI"
+      ]
+    },
+    {
+      "name": "Other Languages & Tools",
+      "keywords": [
+        "Boomi",
+        "C#",
+        "PowerBuilder",
+        "RESTful APIs",
+        "Terraform",
+        "Docker",
+        "Kubernetes",
+        "GitHub Actions",
+        "GIT",
+        "GCP",
+        "AWS",
+        "AWS S3",
+        "AWS RDS",
+        "GraphQL",
+        "Youtube API",
+        "Shopify API"
+      ]
+    },
     {
       "name": "Architecture & Leadership",
       "keywords": [
@@ -267,47 +230,35 @@
       ]
     },
     {
-      "name": "Backend & Integration",
-      "keywords": [
-        "Java",
-        "Spring Boot",
-        "Spring Security",
-        "Spring Data",
-        "Spring JPA",
-        "Hibernate",
-        "Apache Camel",
-        "Apache ActiveMQ",
-        "Boomi",
-        "RESTful APIs",
-        "C#",
-        "PowerBuilder",
-        "Terraform",
-        "Docker",
-        "GitHub Actions",
-        "GIT"
-      ]
-    },
-    {
       "name": "Data Systems",
       "keywords": [
-        "Postgres",
+        "PostgreSQL",
         "MS SQL Server",
         "Oracle PL/SQL",
         "Apache Cassandra",
-        "Elastic Search",
-        "Sybase"
+        "Elasticsearch",
+        "Sybase",
+        "MongoDB"
       ]
     },
     {
-      "name": "Frontend & AI",
+      "name": "Frontend/UI",
       "keywords": [
-        "React",
+        "React.js",
         "Apache Wicket",
         "jQuery",
         "jQuery UI",
-        "Typescript",
+        "Typescript"
+      ]
+    },
+    {
+      "name": "AIAssisted Development",
+      "keywords": [
         "GitHub Copilot",
-        "Google Gemini"
+        "Google Gemini",
+        "Google Antigravity 2",
+        "Claude Code",
+        "OpenAI API"
       ]
     }
   ],
