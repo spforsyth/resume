@@ -1,21 +1,29 @@
 {
-  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "meta": {
+    "theme": "even"
+  },
   "basics": {
     "name": "Steve Forsyth",
-    "label": "Software Engineer & Systems Architect",
-    "image": "",
+    "label": "Senior Software Engineer | Architect",
+    "image": "https://github.com/spforsyth/resume-assets/blob/main/headshot.JPG?raw=true",
     "email": "spforsyth@gmail.com",
-    "phone": "",
-    "url": "https://github.com/spforsyth",
-    "summary": "Innovative software engineer with expertise in full-stack web applications, cloud infrastructure, AI agent integrations, and scalable software architecture.",
+    "phone": "(951) 454-0140",
+    "summary": "With over 18 years of experience as CEO and Principal Consultant, I specialize in custom application architecture and database system development, delivering tailored solutions to meet client-specific business scaling needs. My work spans collaborations with prominent clients, including Cengage Learning, Zappos, Leapfrog, and Harrah's Casino, where I provided expert technical guidance and end-to-end development services.\n\nRecent projects include work on birdcart.com, a product aggregator leveraging Spring Boot, Spring Data/JPA, OpenAI, Gemini and Elastic Search, and The Civic Fix (coming soon), a government solution platform developed in React and hosted on Google Cloud Run and Neon. My work reflects a commitment to high-quality, scalable, and innovative technical solutions that drive business success.",
     "location": {
-      "city": "San Francisco",
+      "address": "",
+      "postalCode": "",
+      "city": "Corona",
       "countryCode": "US",
       "region": "California"
     },
     "profiles": [
       {
-        "network": "GitHub",
+        "network": "LinkedIn",
+        "username": "steveforsyth",
+        "url": "https://www.linkedin.com/in/steveforsyth/"
+      },
+      {
+        "network": "Github",
         "username": "spforsyth",
         "url": "https://github.com/spforsyth"
       }
@@ -23,79 +31,294 @@
   },
   "work": [
     {
-      "name": "Senior Software Engineer",
-      "position": "Software Engineer / Architect",
-      "url": "https://github.com/spforsyth",
-      "startDate": "2021-01-01",
-      "endDate": "",
-      "summary": "Leading design and implementation of modern cloud applications, developer tooling, and automated deployment pipelines.",
+      "name": "iTraker, Inc.",
+      "position": "CEO / Principal Consultant",
+      "startDate": "2008-05",
+      "summary": "Strategic technical consulting and high-level strategy for diverse clients.",
       "highlights": [
-        "Architected automated CI/CD resume publishing pipeline using GitHub Actions and modern web standard tooling.",
-        "Built responsive web applications and full-stack cloud services with automated testing and continuous integration."
+        "Serve as the principal technical lead for diverse clients, providing high-level strategy in application architecture and database development.",
+        "Direct end-to-end development of custom applications and database systems tailored to specific business scaling needs.",
+        "Clients include Cengage Learning, Zappos, Leapfrog and Harrahs Casino",
+        "**More recent work**",
+        "birdcart.com is a product aggregator linking product shopping carts with content creators such as figurine painting. Backend built in Spring Boot/Spring Data/JPA/Security. Aggregates data using Youtube API, Shopify GraphQL Storefront and Admin APIs, OpenAI API, Elasticsearch and PostgreSQL",
+        "thecivicfix.com (coming soon) is a government solution aggregator built in React.js using Google Gemini. Runs in Google Cloud Run and Neon (PostgreSQL) provisioned by Terraform and deployed via GitHub Actions using Docker",
+        "**Technologies used:** Java, Spring Boot/Spring Data/JPA/REST, Apache Camel, Apache Karaf, Apache Cassandra, Apache ActiveMQ, Apache Wicket, PostgreSQL, Oracle DB, MS Sql Server, Boomi, Elasticsearch, GIT, GitHub, GitHub Actions, Terraform, Docker, GCP, React.js, GraphQL, OpenAI API, Youtube API"
+      ],
+      "location": "Corona, CA"
+    },
+    {
+      "name": "Zeitview",
+      "position": "Senior Software Engineer / Architect",
+      "url": "https://www.zeitview.com/",
+      "startDate": "2023-09",
+      "endDate": "2026-03",
+      "location": "Remote",
+      "summary": "Development, architecture and mentoring in a fully remote, Java role working on a drone based renewables inspection platform.",
+      "highlights": [
+        "Orchestrated a company-wide initiative to architect the consolidation of multiple acquired platforms into a unified legacy system, modernizing UI and services while maintaining database integrity.",
+        "Engineered a high-performance, two-way integration engine using Spring Boot, Hibernate, S3, PostgreSQL, and ActiveMQ to facilitate real-time inspection data flow.",
+        "Optimized legacy code refactoring and parsing by leveraging GitHub Copilot, significantly accelerating development turnaround.",
+        "Provided technical mentorship and architectural guidance in a fully remote environment to ensure scalable system design.",
+        "Agile development practices with 2 week sprints, sprint reviews and retrospectives",
+        "Restful services using OpenAPI/Swagger to facilitate rapid UI integrations",
+        "**Technologies used:** Java, Spring Boot/Spring Data/REST, Hibernate, Apache Camel, Apache ActiveMQ, S3, PostgreSQL, Elasticsearch, GIT, GitHub, GitHub Actions, Terraform, Docker, Kubernetes, Argo CD, SonarCube, React.js, OpenAPI, Swagger, Graphana"
+      ]
+    },
+    {
+      "name": "Cengage Learning",
+      "position": "Application Architect | Senior Developer",
+      "url": "https://www.cengage.com/",
+      "startDate": "2014-08",
+      "endDate": "2023-06",
+      "summary": "Architecting online higher education applications and enterprise integrations.",
+      "highlights": [
+        "Spearheaded ESB initiatives using Apache Camel and Boomi to connect internal systems with Salesforce and SAP platforms, ensuring seamless data synchronization.",
+        "Built a sophisticated SOA service layer featuring a multi-threaded course processor that allowed educators to customize content via real-time narrative edits.",
+        "Designed an Apache Wicket-based application enabling developers to build custom queries against Cassandra and Elastic Search engines.",
+        "Led an engineering team maintaining a legacy Spring-based Java backend supporting a high-traffic React student courseware UI.",
+        "**Technologies used:** Java, Spring Boot, Apache Karaf, Apache Camel, Apache CXF, Apache Wicket, Hibernate, Apache Cassandra, Apache ActiveMQ, Elastic, Boomi, Oracle DB, MS Sql Server, Postgres, GIT"
+      ],
+      "location": "Remote"
+    },
+    {
+      "name": "Zappos",
+      "position": "Senior Developer / Lead",
+      "url": "https://www.zappos.com/",
+      "startDate": "2009-10",
+      "endDate": "2014-08",
+      "summary": "Lead Developer for backend applications supporting sales and Amazon integrations.",
+      "highlights": [
+        "Developed a Spring MVC-based purchase order system to track comprehensive vendor purchasing and inventory management.",
+        "Served as Designer/Architect for a Taxonomy project, utilizing jQuery and Camel-based REST APIs to create a high-interactivity Ajax single-page application.",
+        "Worked on inventory management systems that synced data from Zappos to Amazon.",
+        "**Technologies used:** Java, Spring Framework, Spring Security, Apache Camel, Apache Karaf, Hibernate, Oracle DB, MS Sql Server, JQuery, JQuery UI, HTML, CSS, GIT"
+      ],
+      "location": "Remote"
+    },
+    {
+      "name": "LeapFrog",
+      "position": "Senior Developer",
+      "url": "https://www.leapfrog.com",
+      "startDate": "2008-08",
+      "endDate": "2009-05",
+      "summary": "Develop and maintain LeapFrog’s LearningPath application for families to view their childs learning progress.",
+      "highlights": [
+        "Developed and maintained web apps that were embedded into the LearningPath application.",
+        "Used Apache Wicket, Spring, CXF and Flash to deliver a seamless experience between the handheld devices and Leapfrog services.",
+        "**Technologies used:** Java, Apache Wicket, Spring Framework, CXF, Hibernate, Oracle DB, Flash SDK"
+      ],
+      "location": "Remote"
+    },
+    {
+      "name": "Harrahs Casino",
+      "position": "Senior Developer",
+      "startDate": "2008-05",
+      "endDate": "2008-08",
+      "summary": "Developed a custom UI for Interwovens MediaBin media storage application.",
+      "highlights": [
+        "Developed a custom front-end for Interwoven’s MediaBin application using their SOAP API.",
+        "Integrated Active Directory using Spring Security (Acegi) within a Wicket/Spring/Hibernate stack.",
+        "**Technologies used:** Java, Apache Wicket, Spring Framework, Hibernate, Acegi (now Spring Security), MS Sql Server, MS Active Directory"
+      ],
+      "location": "Remote"
+    },
+    {
+      "name": "County of Riverside",
+      "position": "Applications Developer III",
+      "url": "https://rivco.org/",
+      "startDate": "2002-09",
+      "endDate": "2008-04",
+      "location": "Riverside, CA",
+      "summary": "Architected and developed Java-based applications for the Human Resources department.",
+      "description": "",
+      "highlights": [
+        "Designed and developed an employee evaluation web application for over 20,000 employees using Spring MVC, Acegi and Hibernate.",
+        "Built a C# CLI to process EDI medical billing files for the County Hospital’s Health Trio package.",
+        "Designed and developed an Employee Relations application for tracking investigations and complaints using Spring MVC, Acegi w/AOP and Hibernate.",
+        "Custom reporting for the County’s Workers Comp, Professional Liability and General Liability insurance application using Crystal Reports.",
+        "**Technologies used:** Java, Spring MVC, Acegi w/AOP (now Spring Security), Hibernate, Tomcat, MS Sql Server, Sql Server Reproting Services, C#, Crystal Reports"
+      ]
+    },
+    {
+      "name": "WFI",
+      "position": "Senior Software Engineer",
+      "startDate": "2002-03",
+      "endDate": "2002-09",
+      "location": "San Diego, CA",
+      "summary": "Design and development for an in-house project management application.",
+      "description": "",
+      "highlights": [
+        "Developed in Java/JSP/Servlets running on Tomcat and connecting to Oracle 8i via JDBC.",
+        "Utilized Oracle PL/SQL stored procedures extensively for business logic.",
+        "**Technologies used:** Java, JSPs, Servlets, Tomcat, Oracle DB, Oracle PL/SQL"
+      ]
+    },
+    {
+      "name": "Tallan",
+      "position": "Software Consultant",
+      "startDate": "2000-05",
+      "endDate": "2001-11",
+      "location": "Irvine, CA",
+      "summary": "Consulting for large-scale multi-national e-commerce platforms.",
+      "description": "",
+      "highlights": [
+        "Built and maintained e-commerce websites using J2EE technologies, focusing on global shopping cart front-ends for regions like Asia and Europe.",
+        "**Technologies used:**, Java, JSPs, HTML, Javascript, CSS"
+      ]
+    },
+    {
+      "name": "Envision Technology Solutions",
+      "position": "Engineering Manager",
+      "startDate": "1998-02",
+      "endDate": "2000-05",
+      "location": "Salt Lake City, UT",
+      "summary": "Engineering Manager of the Data Conversion Department.",
+      "description": "",
+      "highlights": [
+        "Managed department overseeing conversions of client data from legacy systems to RiskEnvision claims management software.",
+        "Supported conversion into MS SQL Server, Oracle, and Sybase back-ends using PowerBuilder and Visual FoxPro.",
+        "**Technologies used:** PowerBuilder, Visual FoxPro, Oracle DB, MS Sql Server, Sybase DB, Sybase Sql Anywhere."
+      ]
+    },
+    {
+      "name": "Franklin Capital",
+      "position": "Contractor",
+      "startDate": "1997-11",
+      "endDate": "1998-02",
+      "location": "Salt Lake City, UT",
+      "summary": "Reporting for C-Suite executives.",
+      "description": "",
+      "highlights": [
+        "Developed various loan statistics reports using Crystal Reports.",
+        "**Technologies used:** Crystal Reports, Oracle DB"
+      ]
+    },
+    {
+      "name": "Teltrust",
+      "position": "Software Engineer",
+      "startDate": "1996-11",
+      "endDate": "1997-11",
+      "location": "Salt Lake City, UT",
+      "summary": "Reporting application development.",
+      "description": "",
+      "highlights": [
+        "Converted telecom data using FoxPro and Sql Server.",
+        "Wrote summary reports of the telecom data for billing purposes.",
+        "**Technologies used:** Visual FoxPro 3, MS Sql Server"
+      ]
+    },
+    {
+      "name": "Property Research Group",
+      "position": "Software Engineer",
+      "startDate": "1996-05",
+      "endDate": "1996-11",
+      "location": "Salt Lake City, UT",
+      "summary": "Data conversion of County property data.",
+      "description": "",
+      "highlights": [
+        "Converted CSV and Fixed Format files from 9-track tapes and CDs into FoxPro databases.",
+        "**Technologies used:** FoxPro 2.6, Visual FoxPro 3"
       ]
     }
   ],
-  "volunteer": [],
+  "volunteer": [
+    {
+      "organization": "FIRST Robotics Competition",
+      "position": "Mentor",
+      "url": "https://www.firstinspires.org/",
+      "startDate": "2013-08-01",
+      "endDate": "",
+      "summary": "Mentor middle to high school students",
+      "highlights": [
+        "Teach students how to design, build and program a 120lb robot in 8 weeks to compete in a competition.",
+        "Instruct students on how to safely cut and work with wood and metal power tools.",
+        "Teach students how to program their robot to move, manipulate game pieces and use cameras for vision processing"
+      ]
+    },
+    {
+      "organization": "Boy Scouts of America",
+      "position": "Assistant Scout Master",
+      "startDate": "2010-09-01",
+      "endDate": "2014-05-30",
+      "summary": "",
+      "highlights": []
+    }
+  ],
   "education": [
     {
-      "institution": "University",
+      "institution": "University of Utah",
       "area": "Computer Science",
-      "studyType": "Bachelor of Science",
-      "startDate": "2016-09-01",
-      "endDate": "2020-05-31",
-      "score": "",
-      "courses": [
-        "Data Structures & Algorithms",
-        "Distributed Systems",
-        "Software Engineering Principles"
-      ]
+      "studyType": "",
+      "startDate": "1991-09-01",
+      "endDate": "1993-05-30",
+      "score": ""
     }
   ],
-  "awards": [],
-  "certificates": [],
-  "publications": [],
   "skills": [
     {
-      "name": "Programming Languages",
-      "level": "Master",
-      "keywords": ["JavaScript", "TypeScript", "Python", "HTML5", "CSS3", "SQL"]
+      "name": "Architecture & Leadership",
+      "keywords": [
+        "Distributed Systems",
+        "SOA",
+        "Microservices",
+        "Legacy Modernization",
+        "Technical Direction",
+        "Mentorship"
+      ]
     },
     {
-      "name": "Frameworks & Developer Tools",
-      "level": "Advanced",
-      "keywords": ["Node.js", "React", "GitHub Actions", "Docker", "Git", "Puppeteer"]
+      "name": "Backend & Integration",
+      "keywords": [
+        "Java",
+        "Spring Boot",
+        "Spring Security",
+        "Spring Data",
+        "Spring JPA",
+        "Hibernate",
+        "Apache Camel",
+        "Apache ActiveMQ",
+        "Boomi",
+        "RESTful APIs",
+        "C#",
+        "PowerBuilder",
+        "Terraform",
+        "Docker",
+        "GitHub Actions",
+        "GIT"
+      ]
     },
     {
-      "name": "Cloud & Infrastructure",
-      "level": "Advanced",
-      "keywords": ["GitHub Pages", "CI/CD", "REST APIs", "Automated Testing"]
-    }
-  ],
-  "languages": [
+      "name": "Data Systems",
+      "keywords": [
+        "Postgres",
+        "MS SQL Server",
+        "Oracle PL/SQL",
+        "Apache Cassandra",
+        "Elastic Search",
+        "Sybase"
+      ]
+    },
     {
-      "language": "English",
-      "fluency": "Native speaker"
+      "name": "Frontend & AI",
+      "keywords": [
+        "React",
+        "Apache Wicket",
+        "jQuery",
+        "jQuery UI",
+        "Typescript",
+        "GitHub Copilot",
+        "Google Gemini"
+      ]
     }
   ],
   "interests": [
     {
-      "name": "Open Source",
-      "keywords": ["Developer Tooling", "Automation", "Web Standards"]
-    }
-  ],
-  "references": [],
-  "projects": [
+      "name": "Woodworking",
+      "keywords": []
+    },
     {
-      "name": "JSON Resume Builder & Publisher",
-      "roles": ["Creator", "Maintainer"],
-      "startDate": "2026-08-01",
-      "endDate": "",
-      "description": "Automated resume generator supporting 6 export formats built with Node.js and deployed via GitHub Actions to GitHub Pages.",
-      "highlights": [
-        "Export formats: HTML, PDF, TXT, JSON, Markdown, YAML",
-        "Integrated interactive format switcher toolbar"
-      ],
-      "url": "https://github.com/spforsyth/resume"
+      "name": "Ski and Snowboarding",
+      "keywords": []
     }
   ]
 }
